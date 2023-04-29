@@ -1,0 +1,58 @@
+html{
+    background-color: #EEE2DC;
+}
+
+ul{
+    list-style-type: none;
+    margin: 2;
+    padding: 2;
+    overflow: hidden;
+    background-color: #B1A6A4;
+   
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-ecoration: none;
+}
+li a:hover {
+    background-color #a6a6a6;
+}
+
+.active{
+    background-color: #827978;
+}
+
+.gallery{
+    width: 85vw;
+    height: 60 vmin;
+    display: flex;
+    gap: 5px;
+    
+}
+
+.gallery img{
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s;
+    
+}
+
+.gallery img:hover{
+    flex: 4;
+}
+
+
+
+
